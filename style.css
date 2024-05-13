@@ -19,6 +19,12 @@ p {
   color: rgb(85, 85, 85);
 }
 
+ul {
+  color: rgb(85, 85, 85);
+  padding-left: 0.5rem;
+
+}
+
 /* TRANSITION */
 
 a,
@@ -214,6 +220,7 @@ section {
   height: 2rem;
 }
 
+
 /* BUTTONS */
 
 .btn-container {
@@ -302,12 +309,19 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  
 }
 
 .details-container p{
   font-size: 0.9rem;
 
 }
+
+.details-container ul {
+  font-size: 0.9rem;
+}
+
+
 
 
 .section-container {
@@ -320,6 +334,11 @@ section {
   width: 400px;
   margin: auto 0;
 }
+
+.text-container {
+  margin-top: 20px; /* Adjust the size as needed */
+}
+
 
 /* EXPERIENCE SECTION */
 
