@@ -361,12 +361,10 @@ section {
 
 }
 
-/* Test */
 
-/*
 .article-container {
   display: flex;
-  text-align:initial;
+  text-align:center;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
@@ -389,7 +387,6 @@ article {
 
 
 article .icon {
-
   cursor: default;
 }
 
