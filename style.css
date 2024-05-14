@@ -379,7 +379,7 @@ section {
 
 
 article {
-  padding-left: 7rem;
+  padding-left: 5rem;
   display: flex;
   align-items: center; /* Aligns icon and text vertically centered */
   width: 100%; /* Full width for responsiveness */
