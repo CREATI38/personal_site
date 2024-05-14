@@ -374,17 +374,28 @@ section {
 
 } 
 
-.article-container h3 {
-  padding-right: 5rem;
+*/
 
+/* Container holding the articles */
+.article-container {
+  display: flex;
+  justify-content: center; /* Centers the entire container within its parent */
+  gap: 2.5rem; /* Adjust space between articles as needed */
+  flex-wrap: wrap; /* Allows articles to wrap to the next line */
 }
 
-
+/* Each article */
 article {
   display: flex;
-  width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
+  align-items: center; /* Aligns icon and text vertically centered */
+  gap: 0.5rem; /* Adjust space between icon and text container */
+}
+
+.article-container h3 {
+  display: flex;
+  flex-direction: column; /* Aligns content vertically within the text container */
+  gap: 0.5rem; 
+
 }
 
 
