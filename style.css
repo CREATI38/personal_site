@@ -351,6 +351,7 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+
   
 }
 
@@ -358,7 +359,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-
+  
 }
 
 /* Container holding the articles */
@@ -372,11 +373,13 @@ section {
 
 .article-container h3 {
   padding-right: 5rem;
+  
 
 }
 
 
 article {
+  padding-left: 7rem;
   display: flex;
   align-items: center; /* Aligns icon and text vertically centered */
   width: 100%; /* Full width for responsiveness */
