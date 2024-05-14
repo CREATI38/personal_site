@@ -361,16 +361,15 @@ section {
 
 }
 
-
 .article-container {
   display: flex;
-  text-align:center;
+  text-align:initial;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
 
-} 
+}
 
 .article-container h3 {
   padding-right: 5rem;
@@ -385,7 +384,10 @@ article {
   gap: 0.5rem;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 9f208ad (skillset format 1)
 article .icon {
   cursor: default;
 }
