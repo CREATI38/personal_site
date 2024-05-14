@@ -136,6 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'img/credit4.png',
     'img/credit5.png',
     'img/credit6.png',
+    'img/credit7.png',
   ]);
   setupPopup('quick-view-btn2', [
     'img/network1.png',
@@ -144,6 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'img/network4.png',
     'img/network5.png',
     'img/network6.png',
+    'img/network7.png',
   ]);
   setupPopup('quick-view-btn3', [
     'img/game1.png',
