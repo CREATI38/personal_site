@@ -361,13 +361,15 @@ section {
 
 }
 
+
+
+/* Each article */
 /* Container holding the articles */
 .article-container {
-  display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  gap: 2.5rem; /* Adjust space between articles as needed */
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+  gap: 2.5rem; /* Adjust space between columns as needed */
+  justify-items: center; /* Center the items horizontally */
 }
 
 /* Each article */
@@ -377,7 +379,6 @@ article {
   width: 100%; /* Full width for responsiveness */
   max-width: 20rem; /* Optional max-width for larger screens */
   gap: 1rem; /* Adjust space between icon and text container */
-  flex-wrap: nowrap; /* Prevents wrapping within each article */
 }
 
 article .icon {
